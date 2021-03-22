@@ -1,0 +1,325 @@
+{
+  "date": "191116",
+  "tmpPath": "./assets/img/",
+  "brandName": "amactive",
+  "header": {
+    "img": {
+      "src": "/assets/img/maga-cap.jpg",
+      "alt": "Make Amactive Great Again!"
+    }
+  },
+  "contact": {
+    "id": "contact",
+    "name": "Alex Mack",
+    "email": "alex(at)amactive.net",
+    "copyright": "Copyright &copy; amactive 2020"
+  },
+  "navigation": [
+    {
+      "id": "top",
+      "title": "Home",
+      "url": "#top",
+      "navTop": false,
+      "navSide": false
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "url": "#about",
+      "navTop": true,
+      "navSide": true
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "url": "#services",
+      "navTop": true,
+      "navSide": true
+    },
+    {
+      "id": "portfolio",
+      "title": "Portfolio",
+      "url": "#portfolio",
+      "navTop": true,
+      "navSide": true
+    },
+    {
+      "id": "clients",
+      "title": "Clients",
+      "url": "#clients",
+      "navTop": true,
+      "navSide": true
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "url": "#contact",
+      "navTop": true,
+      "navSide": true
+    }
+  ],
+  "about": {
+    "id": "about",
+    "title": "Hello <span class=\"line-through\">World</span> Employer",
+    "body": "My name is Alex. I am a designer-developer with more than 10 years experience. I specialise in front end development using React, Sass CSS, and HTML. If you need <a href=\"#services\">my&nbsp;skills</a> to boost your output then do please <a href=\"#contact\">contact&nbsp;me</a>."
+  },
+  "imgBanner": {
+    "id": "imgBanner",
+    "title": "\"My best design is my next\"",
+    "subtitle": "Sergio Pininfarina",
+    "backgroundImage": "./assets/img/pininfarina.jpg",
+    "background": {
+      "url": "./assets/img/pininfarina.jpg",
+      "position": "left top",
+      "color": "#333",
+      "attachment": "scroll",
+      "repeat": "no-repeat",
+      "size": "cover"
+    }
+  },
+  "clients": {
+    "id": "clients",
+    "class": "bg-secondary",
+    "title": "Clients",
+    "body": "Throughout my career, I have been very fortunate to work on some exciting projects for clients large and small, all over the world.",
+    "items": [
+      {
+        "title": "BP | British Peroleum",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-bp.jpg",
+          "alt": "BP | British Peroleum"
+        }
+      },
+      {
+        "title": "Johnson & Johnson",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-johnson-and-johnson.jpg",
+          "alt": "Johnson & Johnson"
+        }
+      },
+      {
+        "title": "DePuy | Johnson & Johnson",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-depuy.jpg",
+          "alt": "DePuy | Johnson & Johnson"
+        }
+      },
+      {
+        "title": "Smith & Nephew",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-smith-and-nephew.jpg",
+          "alt": "Smith & Nephew"
+        }
+      },
+      {
+        "title": "Zoopla | Smarter property search",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-zoopla.jpg",
+          "alt": "Zoopla | Smarter property search"
+        }
+      },
+      {
+        "title": "Credit Info",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-credit-info.jpg",
+          "alt": "Credit Info"
+        }
+      },
+      {
+        "title": "Interoute",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-interoute.jpg",
+          "alt": "Interoute"
+        }
+      },
+      {
+        "title": "Bonmarche",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-bonmarche.jpg",
+          "alt": "Bonmarche"
+        }
+      }
+    ]
+  },
+  "services": {
+    "id": "services",
+    "class": "bg-primary",
+    "title": "Skills",
+    "items": [
+      {
+        "title": "Development",
+        "icon": "code",
+        "text": "React, Redux, Angular, jQuery, Vanilla JS, AureliaJS, PHP, MySQL, Wordpress"
+      },
+      {
+        "title": "Environment",
+        "icon": "terminal",
+        "text": "Windows, VS Code, NPM, Netlify, GIT, Bitbucket, JIRA, TFS"
+      },
+      {
+        "title": "HTML5 & CSS3",
+        "icon": "shapes",
+        "text": "Standards compliant HTML5, SASS CSS3, Material UI, Bootstrap"
+      },
+      {
+        "title": "Design",
+        "icon": "pencil-alt",
+        "text": "Axure, Adobe XD, Photoshop, Fireworks, Illustrator, Flash, Premiere Rush"
+      }
+    ]
+  },
+  "portfolio": {
+    "id": "portfolio",
+    "class": "",
+    "title": "Portfolio",
+    "items": [
+      {
+        "title": "ClassicAndSportscar.ltd.uk",
+        "url": "https://classicandsportscar.ltd.uk/",
+        "urlNext": "https://csc2020.netlify.com/",
+        "text": "React JS + SASS | May 20",
+        "img": {
+          "src": "/assets/img/portfolio/classic-and-sportscar.jpg",
+          "alt": "Classic and Sportscar Centre"
+        }
+      },
+      {
+        "title": "EnergieDirect.nl",
+        "url": "https://www.energiedirect.nl/",
+        "text": "Angular FE + SASS CSS | 2018",
+        "img": {
+          "src": "/assets/img/portfolio/energie-direct-nl.jpg",
+          "alt": "Energie Direct"
+        }
+      },
+      {
+        "title": "RyedaleMencap.com",
+        "url": "https://www.ryedalemencap.com/",
+        "text": "Wordpress | 2018",
+        "img": {
+          "src": "/assets/img/portfolio/ryedale-mencap.jpg",
+          "alt": "Ryedale Mencap"
+        }
+      },
+      {
+        "title": "EnglishCollege.cz",
+        "url": "https://www.englishcollege.cz/",
+        "text": "Wordpress, bespoke theme | 2017",
+        "img": {
+          "src": "/assets/img/portfolio/english-college-prague.jpg",
+          "alt": "Engish College Prague"
+        }
+      },
+      {
+        "title": "Zettabox.com",
+        "url": "",
+        "text": "Lead designer & FE developer | 2015",
+        "img": {
+          "src": "/assets/img/portfolio/logo-zettabox.jpg",
+          "alt": "Zettabox"
+        },
+        "slides": [
+          {
+            "src": "/assets/img/portfolio/zettabox/pricing-page.jpg",
+            "alt": "Zettabox"
+          },
+          {
+            "src": "/assets/img/portfolio/zettabox/file-manager.jpg",
+            "alt": "Zettabox"
+          },
+          {
+            "src": "/assets/img/portfolio/zettabox/file-manager_selected.jpg",
+            "alt": "Zettabox"
+          },
+          {
+            "src": "/assets/img/portfolio/zettabox/print/A4-or-A5_general.jpg",
+            "alt": "Zettabox"
+          },
+          {
+            "src": "/assets/img/portfolio/zettabox/print/business-cards.jpg",
+            "alt": "Zettabox"
+          },
+          {
+            "src": "/assets/img/portfolio/zettabox/print/popup-banners.jpg",
+            "alt": "Zettabox"
+          },
+          {
+            "src": "/assets/img/portfolio/zettabox/print/t-shirts.jpg",
+            "alt": "Zettabox"
+          },
+          {
+            "src": "/assets/img/portfolio/zettabox/print/recruiting.jpg",
+            "alt": "Zettabox"
+          }
+        ]
+      },
+      {
+        "title": "PSautoart.com",
+        "url": "",
+        "text": "Bespoke PHP MySql CMS | 2010",
+        "img": {
+          "src": "/assets/img/portfolio/logo-paul-stephens-badge.jpg",
+          "alt": "PS Autoart"
+        },
+        "slides": [
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_00_homepage-0.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_00_homepage-1.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_00_homepage-2.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_01_car-0.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_01_car-1.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_01_car-2.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_01_car-3.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_01_car-4.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_02_press-0.jpg",
+            "alt": "PS Autoart"
+          },
+          {
+            "src": "/assets/img/portfolio/ps-autoart/PS_autoart_02_press-1.jpg",
+            "alt": "PS Autoart"
+          }
+        ]
+      }
+    ]
+  }
+}

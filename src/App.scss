@@ -1,0 +1,16 @@
+/* App.scss */
+@import "./assets/scss/Variables";
+@import "./assets/scss/Colors";
+@import "./assets/scss/Base";
+@import "./assets/scss/Typography.scss";
+@import "./components/Backdrop/Backdrop";
+@import "./components/TitleSection/TitleSection";
+@import "./components/MainImage/MainImage";
+@import "./components/ImgBanner/ImgBanner";
+@import "./components/Services/Services";
+@import "./components/Portfolio/Portfolio";
+@import "./components/Clients/Clients";
+@import "./components/Contact/Contact";
+@import "./components/Toolbar/Toolbar";
+@import "./components/SideDrawer/SideDrawer";
+@import "./components/SideDrawer/DrawerToggleButton";

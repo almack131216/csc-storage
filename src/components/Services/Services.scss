@@ -1,0 +1,101 @@
+/* Clients.css */
+/* grid */
+/*
+  https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+  */
+
+.css-grid {
+  &.services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 10vw); */
+    grid-gap: $offset-g1;
+    max-width: $max-width;
+    margin: 0 auto;
+
+    .item {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      // border: 1px solid black;
+
+      .icon-area > .fa-stack {
+        font-size: 3em;
+      }
+
+      .text-area {
+        padding: 0 $offset-g1;
+
+        h3 {
+          margin: $offset-g1 auto;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $bp-tablet) and (max-width: 990px) {
+  .css-grid.services {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 10vw); */
+    grid-row-gap: $offset-g2;
+  }
+
+  .css-grid.services .item .icon-area > .fa-stack {
+    /* background: pink; */
+    /* display: inline-block;
+    width: 40%; */
+    font-size: 3em;
+  }
+}
+
+@media (max-width: $bp-tablet-1) {
+  .css-grid.services {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: $offset-g2;
+  }
+
+  .css-grid.services .item {
+    display: flex;
+  }
+
+  .css-grid.services .item .icon-area > .fa-stack {
+    /* background: pink; */
+    /* display: inline-block;
+    width: 40%; */
+    font-size: 1.6em;
+  }
+  .css-grid.services .item .text-area {
+    /* justify-content: center; */
+    /* background: orange; */
+    flex-grow: 1;
+    /* display: inline-block; */
+    text-align: left;
+    padding: 0 0 0 $offset-g1;
+    /* width: 60%;
+    box-sizing: border-box; */
+  }
+
+  .css-grid.services .item .text-area h3 {
+    margin: 0;
+  }
+
+  .css-grid.services .item .text-area p {
+    margin: 0;
+  }
+}
+
+@media (max-width: $bp-xs-1) {
+  .css-grid.services .item .icon-area > .fa-stack {
+    font-size: 1.2em;
+  }
+  .css-grid.services .item .text-area {
+    flex-grow: 1;
+    text-align: left;
+    padding: 0 0 0 $offset-g1;
+  }
+}

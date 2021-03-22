@@ -1,0 +1,27 @@
+/* MainImage.css */
+/*
+  */
+.main-img {
+  width: 75%;
+  height: auto;
+  /* min-height: 60vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0 auto;
+}
+
+div.main-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: $bp-tablet-1) {
+  .main-img {
+    width: 100%;
+  }
+  div.main-img img {
+  }
+}

@@ -1,0 +1,75 @@
+/* TitleSection.scss */
+
+section {
+  padding: $offset-g2;
+
+  @media (max-width: $bp-xs-1) {
+    padding: $offset-g1;
+
+    &.title:not(#about) {
+      padding-top: $offset-g2;
+    }
+
+    &.title#about,
+    &#services-list {
+      padding-bottom: $offset-g2;
+    }
+  }
+
+  > .section-inner {
+    display: inline-block;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  &.title:not(#about) {
+    padding-top: calc(#{$offset-g2} * 2);
+  }
+
+  &.title {
+    // border: 1px solid red;
+
+    h2 {
+      display: inline-block;
+      margin: 0 auto;
+      padding-bottom: $offset-g1;
+      position: relative;
+
+      .line-through {
+        background: linear-gradient(to left top, transparent 47.75%, red 49.5%, red 50.5%, transparent 52.25%);
+      }
+
+      // &:before {
+      //   content: "";
+      //   position: absolute;
+      //   width: 50%;
+      //   max-width: 100px;
+      //   height: 1px;
+      //   bottom: 0;
+      //   left: 25%;
+      //   border-bottom: 1px solid $color_font-default;
+      // }
+    }
+    /* (END) h2 */
+
+    h3 {
+      margin: $offset-g2 auto 0 auto;
+      display: inline-block;
+      position: relative;
+    }
+    /* (END) h3 */
+
+    .body {
+      margin-top: $offset-g2;
+    }
+
+    &.bg-secondary .body {
+      font-weight: bold;
+    }
+
+    &.bg-primary h2:before,
+    &.bg-fourth h2:before {
+      border-color: white;
+    }
+  }
+}
