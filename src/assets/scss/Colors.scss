@@ -13,7 +13,15 @@
 
 .bg-secondary {
   background-color: $color_secondary;
-  color: black;
+  color: white;
+
+  h2,
+  h3,
+  h4,
+  p,
+  a {
+    color: white;
+  }
 }
 
 .bg-third {

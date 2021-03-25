@@ -1,15 +1,14 @@
 /* Contact.css */
 
-p.email {
-  color: white;
+footer {
+  .inner {
+    display: inline-block;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+  p.copyright {
+    padding: 0 0 $offset-g2 0;
+    margin: 0 auto;
+  }
 }
 
-p.copyright {
-  padding: 0 0 $offset-g2 0;
-  margin: 0 auto;
-}
-
-.fa-envelope {
-  color: white;
-  margin-right: $offset-1;
-}

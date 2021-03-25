@@ -1,0 +1,26 @@
+/* ContactList.css */
+
+ul.contact-list {
+  list-style:none;
+  margin:$offset-g2 0;
+  padding:0;
+  
+  li {
+    margin:0;
+    padding:0;
+
+    svg {
+      width:20px !important;
+      margin-right:$offset-1;
+    }
+
+    a {
+      color:white;
+      text-decoration:none;
+
+      &:hover {
+        text-decoration:underline;
+      }
+    }
+  }
+}

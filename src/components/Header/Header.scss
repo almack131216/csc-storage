@@ -1,0 +1,19 @@
+/* Header.css */
+
+.header-banner {
+  background:yellow;
+  padding:$offset-g1;
+
+  .logo-img {
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: $bp-tablet-1) {
+    background:orange;
+  }
+}
+

@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./App.scss";
-import MainImage from "./components/MainImage/MainImage";
+import Header from "./components/Header/Header";
+import TitleTextImg from "./components/TitleTextImg/TitleTextImg";
 import Services from "./components/Services/Services";
 import ImgBanner from "./components/ImgBanner/ImgBanner";
 import TitleSection from "./components/TitleSection/TitleSection";
@@ -66,7 +67,17 @@ class App extends React.Component<any, any> {
         />
         {backdrop}
         <main>
-          <MainImage data={this.state.data.header} />
+          <Header 
+            data={this.state.data.header}
+          />
+          {/* <MainImage data={this.state.data.header} /> */}
+          <TitleTextImg 
+            id="home"
+            title={this.state.data.home.title}
+            body={this.state.data.home.body}
+            contact={this.state.data.contact}
+            class="bg-primary"
+          />
           <TitleSection
             id="about"
             title={this.state.data.about.title}

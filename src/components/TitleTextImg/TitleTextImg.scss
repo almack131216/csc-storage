@@ -1,0 +1,42 @@
+/* TitleTextImg.css */
+/*
+  */
+.img-text {
+  background:blue;
+  padding:0;
+  display:flex;
+  flex-direction:row;
+
+  .section-inner-img {
+    width:50%;
+
+  background: url(../../assets/images/yyy.jpg) no-repeat left top scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+    // img {
+    //   width: 100%;
+    //   height: auto;
+    // }
+  }
+
+  .section-inner-text {
+    width:50%;
+    background:green;
+
+    .inner {
+      padding:$offset-g2;
+      text-align:left;
+      max-width:490px;
+      background:red;
+    }
+  }
+}
+
+
+
+@media (max-width: $bp-tablet-1) {
+
+}

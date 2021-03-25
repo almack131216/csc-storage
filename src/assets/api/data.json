@@ -4,17 +4,20 @@
   "brandName": "Classic Car Storage",
   "header": {
     "img": {
-      "src": "",
+      "src": "/assets/images/logo-classic-and-sportscar-centre.gif",
       "alt": ""
     }
   },
   "contact": {
     "id": "contact",
-    "name": "Classic Car Storage",
+    "title": "Contact Us",
+    "brandName": "Classic Car Storage",
     "email": "storage(at)classicandsportscar.ltd.uk",
+    "emailMailto": "storage@classicandsportscar.ltd.uk",
     "telephone": "01944 758000",
     "address": "Malton, North Yorkshire",
-    "copyright": "Copyright &copy; Classic Car Storage 2021"
+    "copyright": "Copyright &copy; Classic Car Storage 2021",
+    "body": "If you would like to discuss placing your vehicle in storage with us, or discuss any aspect of classic car ownership, please contact our sales team at Classic & Sportscar Centre."
   },
   "navigation": [
     {
@@ -46,10 +49,33 @@
       "navSide": true
     }
   ],
+  "home": {
+    "id": "home",
+    "title": "Classic Car Storage",
+    "body": "Maintained long and short term secure indoor storage for classic and modern cars.",
+    "banner": {
+      "title": "XXX",
+      "url": "",
+      "text": "",
+      "img": {
+        "src": "/assets/images/xxx.jpg",
+        "alt": "XXX"
+      }
+    }
+  },
   "about": {
     "id": "about",
-    "title": "Hello <span class=\"line-through\">World</span> Employer",
-    "body": "My name is Alex. I am a designer-developer with more than 10 years experience. I specialise in front end development using React, Sass CSS, and HTML. If you need <a href=\"#services\">my&nbsp;skills</a> to boost your output then do please <a href=\"#contact\">contact&nbsp;me</a>."
+    "title": "Classic Car Storage",
+    "body": "My name is Alex. I am a designer-developer with more than 10 years experience. I specialise in front end development using React, Sass CSS, and HTML. If you need <a href=\"#services\">my&nbsp;skills</a> to boost your output then do please <a href=\"#contact\">contact&nbsp;me</a>.",
+    "banner": {
+      "title": "XXX",
+      "url": "",
+      "text": "",
+      "img": {
+        "src": "/assets/images/xxx.jpg",
+        "alt": "XXX"
+      }
+    }
   },
   "imgBanner": {
     "id": "imgBanner",
@@ -64,6 +90,86 @@
       "repeat": "no-repeat",
       "size": "cover"
     }
+  },
+  "clients": {
+    "id": "clients",
+    "class": "bg-secondary",
+    "title": "Clients",
+    "body": "Throughout my career, I have been very fortunate to work on some exciting projects for clients large and small, all over the world.",
+    "items": [
+      {
+        "title": "XXX",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/images/xxx.jpg",
+          "alt": "XXX"
+        }
+      },
+      {
+        "title": "Johnson & Johnson",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-johnson-and-johnson.jpg",
+          "alt": "Johnson & Johnson"
+        }
+      },
+      {
+        "title": "DePuy | Johnson & Johnson",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-depuy.jpg",
+          "alt": "DePuy | Johnson & Johnson"
+        }
+      },
+      {
+        "title": "Smith & Nephew",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-smith-and-nephew.jpg",
+          "alt": "Smith & Nephew"
+        }
+      },
+      {
+        "title": "Zoopla | Smarter property search",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-zoopla.jpg",
+          "alt": "Zoopla | Smarter property search"
+        }
+      },
+      {
+        "title": "Credit Info",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-credit-info.jpg",
+          "alt": "Credit Info"
+        }
+      },
+      {
+        "title": "Interoute",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-interoute.jpg",
+          "alt": "Interoute"
+        }
+      },
+      {
+        "title": "Bonmarche",
+        "url": "",
+        "text": "",
+        "img": {
+          "src": "/assets/img/clients/logo-bonmarche.jpg",
+          "alt": "Bonmarche"
+        }
+      }
+    ]
   },
   "services": {
     "id": "services",
