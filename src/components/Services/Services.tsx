@@ -18,22 +18,16 @@ class services extends React.Component<any, any> {
     const myClass = this.props.data.class ? this.props.data.class : "";
     // const mySkills = ...this.props.data.items;
     const mySkills = this.props.data.items.map(
-      (item: { title: string; icon: string; text: string }, index: number) => {
+      (item: { title: string; icon: string; text: string, img: any  }, index: number) => {
         return (
           <div className="item" key={index}>
-            <div className="icon-area">
-              <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
-                <FontAwesomeIcon
-                  icon={item.icon as IconName}
-                  className="fa-stack-1x text-primary"
-                />
-              </span>
+            <div className="img-area">
+              <img src={item.img.src} />
             </div>
             <div className="text-area">
               <h3>{item.title}</h3>
               <p>{item.text}</p>
-              {/* <!--<a href="#" className="btn btn-light">Learn More</a>--> */}
+              <a href="#" className="btn btn-light">More Information</a>
             </div>
           </div>
         );

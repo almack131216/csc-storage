@@ -7,7 +7,7 @@
 .css-grid {
   &.services {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* grid-template-rows: repeat(3, 10vw); */
     grid-gap: $offset-g1;
     max-width: $max-width;
@@ -19,12 +19,20 @@
       object-fit: cover;
       // border: 1px solid black;
 
-      .icon-area > .fa-stack {
-        font-size: 3em;
+      // .icon-area > .fa-stack {
+      //   font-size: 3em;
+      // }
+
+      .img-area {
+        img {
+          width:100%;
+          height:auto;
+        }
       }
 
       .text-area {
-        padding: 0 $offset-g1;
+        padding: 0 0 $offset-g2 0;
+        text-align:left;
 
         h3 {
           margin: $offset-g1 auto;

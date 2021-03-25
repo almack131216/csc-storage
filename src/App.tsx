@@ -79,22 +79,11 @@ class App extends React.Component<any, any> {
             class="bg-primary"
           />
           <TitleSection
-            id="about"
-            title={this.state.data.about.title}
-            body={this.state.data.about.body}
-          />
-          <TitleSection
             id={this.state.data.services.id}
             title={this.state.data.services.title}
-            class="bg-primary"
+            class="bg-white"
           />
           <Services id="services-list" data={this.state.data.services} />
-          <ImgBanner
-            id={this.state.data.imgBanner.id}
-            title={this.state.data.imgBanner.title}
-            subtitle={this.state.data.imgBanner.subtitle}
-            background={this.state.data.imgBanner.background}
-          />
         </main>
         <Contact
           id={this.state.data.contact.id}
