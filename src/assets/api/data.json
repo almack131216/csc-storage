@@ -77,6 +77,11 @@
       }
     }
   },
+  "rates": {
+    "id": "rates",
+    "title": "Competitive Storage Rates",
+    "body": "We offer competitive storage rates, so please contact us if you wish to discuss storing your vehicle with us or are interested in any of the other services we offer."
+  },  
   "imgBanner": {
     "id": "imgBanner",
     "title": "\"My best design is my next\"",
@@ -90,86 +95,6 @@
       "repeat": "no-repeat",
       "size": "cover"
     }
-  },
-  "clients": {
-    "id": "clients",
-    "class": "bg-secondary",
-    "title": "Clients",
-    "body": "Throughout my career, I have been very fortunate to work on some exciting projects for clients large and small, all over the world.",
-    "items": [
-      {
-        "title": "XXX",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/images/xxx.jpg",
-          "alt": "XXX"
-        }
-      },
-      {
-        "title": "Johnson & Johnson",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/img/clients/logo-johnson-and-johnson.jpg",
-          "alt": "Johnson & Johnson"
-        }
-      },
-      {
-        "title": "DePuy | Johnson & Johnson",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/img/clients/logo-depuy.jpg",
-          "alt": "DePuy | Johnson & Johnson"
-        }
-      },
-      {
-        "title": "Smith & Nephew",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/img/clients/logo-smith-and-nephew.jpg",
-          "alt": "Smith & Nephew"
-        }
-      },
-      {
-        "title": "Zoopla | Smarter property search",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/img/clients/logo-zoopla.jpg",
-          "alt": "Zoopla | Smarter property search"
-        }
-      },
-      {
-        "title": "Credit Info",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/img/clients/logo-credit-info.jpg",
-          "alt": "Credit Info"
-        }
-      },
-      {
-        "title": "Interoute",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/img/clients/logo-interoute.jpg",
-          "alt": "Interoute"
-        }
-      },
-      {
-        "title": "Bonmarche",
-        "url": "",
-        "text": "",
-        "img": {
-          "src": "/assets/img/clients/logo-bonmarche.jpg",
-          "alt": "Bonmarche"
-        }
-      }
-    ]
   },
   "services": {
     "id": "services",
@@ -188,7 +113,7 @@
       {
         "title": "Checked & Protected",
         "id": "checked",
-        "text": "Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning.",
+        "text": "On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning.",
         "img": {
           "src": "/assets/images/yyy.jpg",
           "alt": "YYY"
@@ -197,7 +122,7 @@
       {
         "title": "Transport",
         "id": "transport",
-        "text": "Our purpose-built enclosed transporters can collect your vehicle, or you can deliver your car to any of our sites in the Malton area.",
+        "text": "Our purpose-built enclosed transporters can collect your vehicle, or you can deliver your car to any of our sites in the Malton area. On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. ",
         "img": {
           "src": "/assets/images/xxx.jpg",
           "alt": "XXX"
@@ -206,6 +131,24 @@
       {
         "title": "Insured & Secure",
         "id": "insured",
+        "text": "Your vehicle will be comprehensively insured whilst in our possession and our secure premises are alarmed and under manned surveillance 24 hours a day.",
+        "img": {
+          "src": "/assets/images/xxx.jpg",
+          "alt": "XXX"
+        }
+      },
+      {
+        "title": "Maintained",
+        "id": "maintained",
+        "text": "Whilst in our care, we can arrange various lubrication and maintenance packages and regular road testing should you require this service. Prior to your car being returned to you it will receive a complimentary valet, with all levels checked.",
+        "img": {
+          "src": "/assets/images/xxx.jpg",
+          "alt": "XXX"
+        }
+      },
+      {
+        "title": "Accessories",
+        "id": "accessories",
         "text": "Your vehicle will be comprehensively insured whilst in our possession and our secure premises are alarmed and under manned surveillance 24 hours a day.",
         "img": {
           "src": "/assets/images/xxx.jpg",

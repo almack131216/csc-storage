@@ -84,10 +84,17 @@ class App extends React.Component<any, any> {
             class="bg-white"
           />
           <Services id="services-list" data={this.state.data.services} />
+          <TitleSection
+            id={this.state.data.rates.id}
+            title={this.state.data.rates.title}
+            body={this.state.data.rates.body}
+            contact={this.state.data.contact}
+            class="bg-primary"
+          />
         </main>
         <Contact
           id={this.state.data.contact.id}
-          data={this.state.data.contact}
+          data={this.state.data.contact}          
         />
       </div>
     );

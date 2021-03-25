@@ -1,6 +1,6 @@
 import * as React from "react";
 import parse from "html-react-parser";
-
+import ContactList from "../ContactList/ContactList";
 class titleSection extends React.Component<any, any> {
   render() {
     const myBody = this.props.body
@@ -10,6 +10,7 @@ class titleSection extends React.Component<any, any> {
       ? parse("<h3>" + this.props.bodyStrong + "</h3>")
       : null;
     const myClass = this.props.class ? this.props.class : "";
+    const myContact = this.props.contact ? true : false;
 
     return (
       <section
@@ -20,6 +21,7 @@ class titleSection extends React.Component<any, any> {
           <h2>{parse(this.props.title)}</h2>
           {mySubtitle}
           {myBody}
+          {myContact ? <ContactList list={this.props.contact}/> : null}
         </div>
       </section>
     );
