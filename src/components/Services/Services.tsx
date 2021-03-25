@@ -16,8 +16,8 @@ library.add(faCircle, faCode, faPencilAlt, faTerminal, faShapes);
 class services extends React.Component<any, any> {
   render() {
     const myClass = this.props.data.class ? this.props.data.class : "";
-    // const mySkills = ...this.props.data.items;
-    const mySkills = this.props.data.items.map(
+    // const myServices = ...this.props.data.items;
+    const myServices = this.props.data.items.map(
       (item: { title: string; icon: string; text: string, img: any  }, index: number) => {
         return (
           <div className="item" key={index}>
@@ -37,7 +37,7 @@ class services extends React.Component<any, any> {
     return (
       <section id={this.props.id ? this.props.id : null} className={myClass}>
         <div className="section-inner">
-          <div className="css-grid services">{mySkills}</div>
+          <div className="css-grid services">{myServices}</div>
         </div>
       </section>
     );

@@ -35,8 +35,8 @@
       "navSide": true
     },
     {
-      "id": "skills",
-      "title": "Skills",
+      "id": "services",
+      "title": "Services",
       "url": "#services",
       "navTop": true,
       "navSide": true
@@ -66,7 +66,7 @@
   "about": {
     "id": "about",
     "title": "Classic Car Storage",
-    "body": "My name is Alex. I am a designer-developer with more than 10 years experience. I specialise in front end development using React, Sass CSS, and HTML. If you need <a href=\"#services\">my&nbsp;skills</a> to boost your output then do please <a href=\"#contact\">contact&nbsp;me</a>.",
+    "body": "My name is Alex. I am a designer-developer with more than 10 years experience. I specialise in front end development using React, Sass CSS, and HTML. If you need <a href=\"#services\">my&nbsp;services</a> to boost your output then do please <a href=\"#contact\">contact&nbsp;me</a>.",
     "banner": {
       "title": "XXX",
       "url": "",
@@ -99,7 +99,7 @@
   "services": {
     "id": "services",
     "class": "bg-white",
-    "title": "About",
+    "title": "Services",
     "items": [
       {
         "title": "Why choose us?",
