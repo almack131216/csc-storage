@@ -30,7 +30,7 @@
     {
       "id": "about",
       "title": "Why Us?",
-      "url": "#about",
+      "url": "/about",
       "navTop": true,
       "navSide": true
     },

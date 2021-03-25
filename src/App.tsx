@@ -1,5 +1,13 @@
 import * as React from "react";
+//Import all needed Component for this tutorial
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
 import "./App.scss";
+import Homepage from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Transport from "./pages/Transport/Transport";
 import Header from "./components/Header/Header";
 import TitleTextImg from "./components/TitleTextImg/TitleTextImg";
 import Services from "./components/Services/Services";
@@ -70,6 +78,12 @@ class App extends React.Component<any, any> {
           <Header 
             data={this.state.data.header}
           />
+          <Router>
+            <Route exact path={`/`} component={Homepage} />
+            <Route exact path={`/homepage`} component={Homepage} />
+            <Route exact path={`/about`} component={About} />
+            <Route exact path={`/transport`} component={Transport} />
+          </Router>
           {/* <MainImage data={this.state.data.header} /> */}
           <TitleTextImg 
             id="home"
