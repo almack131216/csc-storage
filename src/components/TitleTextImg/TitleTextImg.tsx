@@ -22,7 +22,7 @@ class titleTextImg extends React.Component<any, any> {
           &nbsp;
         </div>
         <div className="section-inner-text">
-          <div className="inner">
+          <div className="content-inner">
             <h2>{parse(this.props.title)}</h2>
             {mySubtitle}
             {myBody}

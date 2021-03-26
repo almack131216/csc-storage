@@ -8,11 +8,13 @@ import ContactList from "../ContactList/ContactList";
 const contact = props => {
   return (
     <footer id={props.id ? props.id : null} className="bg-secondary">
-      <div className="inner">
-        <TitleSection title={props.data.title} class="bg-secondary" />
-        <p>{props.data.body}</p>
-        <ContactList list={props.data}/>
-      </div>
+      <section>
+        <div className="content-inner">
+          <h2>{props.data.title}</h2>
+          <p>{props.data.body}</p>
+          <ContactList list={props.data}/>
+        </div>
+      </section>
       <hr className="dotted" />
       <p className="copyright">{parse(props.data.copyright)}</p>
     </footer>

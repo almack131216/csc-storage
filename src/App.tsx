@@ -8,6 +8,7 @@ import "./App.scss";
 import Homepage from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Transport from "./pages/Transport/Transport";
+import Accessories from "./pages/Accessories/Accessories";
 import Header from "./components/Header/Header";
 import TitleTextImg from "./components/TitleTextImg/TitleTextImg";
 import Services from "./components/Services/Services";
@@ -79,32 +80,48 @@ class App extends React.Component<any, any> {
             data={this.state.data.header}
           />
           <Router>
-            <Route exact path={`/`} component={Homepage} />
-            <Route exact path={`/homepage`} component={Homepage} />
-            <Route exact path={`/about`} component={About} />
-            <Route exact path={`/transport`} component={Transport} />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/`}
+              >
+                <Homepage
+                siteData={this.state.data}
+                />
+            </Route>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/homepage`}
+              >
+                <Homepage
+                siteData={this.state.data}
+                />
+            </Route>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/about`}
+              >
+                <About
+                siteData={this.state.data}
+                />
+            </Route>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/transport`}
+              >
+                <Transport
+                siteData={this.state.data}
+                />
+            </Route>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/accessories`}
+              >
+                <Accessories
+                siteData={this.state.data}
+                />
+            </Route>
           </Router>
           {/* <MainImage data={this.state.data.header} /> */}
-          <TitleTextImg 
-            id="home"
-            title={this.state.data.home.title}
-            body={this.state.data.home.body}
-            contact={this.state.data.contact}
-            class="bg-primary"
-          />
-          <TitleSection
-            id={this.state.data.services.id}
-            title={this.state.data.services.title}
-            class="bg-white"
-          />
-          <Services id="services-list" data={this.state.data.services} />
-          <TitleSection
-            id={this.state.data.rates.id}
-            title={this.state.data.rates.title}
-            body={this.state.data.rates.body}
-            contact={this.state.data.contact}
-            class="bg-primary"
-          />
         </main>
         <Contact
           id={this.state.data.contact.id}

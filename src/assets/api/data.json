@@ -23,9 +23,9 @@
     {
       "id": "top",
       "title": "Home",
-      "url": "#top",
+      "url": "/",
       "navTop": false,
-      "navSide": false
+      "navSide": true
     },
     {
       "id": "about",
@@ -37,7 +37,21 @@
     {
       "id": "services",
       "title": "Services",
-      "url": "#services",
+      "url": "/services",
+      "navTop": true,
+      "navSide": true
+    },
+    {
+      "id": "transport",
+      "title": "Transport",
+      "url": "/transport",
+      "navTop": true,
+      "navSide": true
+    },
+    {
+      "id": "accessories",
+      "title": "Accessories",
+      "url": "/accessories",
       "navTop": true,
       "navSide": true
     },
@@ -81,7 +95,17 @@
     "id": "rates",
     "title": "Competitive Storage Rates",
     "body": "We offer competitive storage rates, so please contact us if you wish to discuss storing your vehicle with us or are interested in any of the other services we offer."
-  },  
+  },
+  "transport": {
+    "id": "transport",
+    "title": "Transport",
+    "body": "Collection and drop off can be made with as little as 24 hours’ notice from our main site at Corner Farm, West Knapton, Malton."
+  },
+  "accessories": {
+    "id": "accessories",
+    "title": "Maintenance kits",
+    "body": "<ul><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
+  },
   "imgBanner": {
     "id": "imgBanner",
     "title": "\"My best design is my next\"",

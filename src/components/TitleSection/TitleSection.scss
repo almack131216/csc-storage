@@ -6,12 +6,12 @@ section {
   @media (max-width: $bp-xs-1) {
     padding: $offset-g1;
 
-    &.title:not(#about) {
+    &.title:not(#aboutXXX) {
       padding-top: $offset-g2;
     }
 
-    &.title#about,
-    &#services-list {
+    &.title#aboutXXX,
+    &#services-listXXX {
       padding-bottom: $offset-g2;
     }
   }
@@ -22,7 +22,7 @@ section {
     margin: 0 auto;
   }
 
-  &.title:not(#about) {
+  &.title:not(#aboutXXX) {
     padding-top: calc(#{$offset-g2} * 2);
   }
 
