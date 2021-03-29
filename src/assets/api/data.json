@@ -35,9 +35,9 @@
       "navSide": true
     },
     {
-      "id": "services",
-      "title": "Services",
-      "url": "/services",
+      "id": "maintenance",
+      "title": "Maintenance",
+      "url": "/maintenance",
       "navTop": true,
       "navSide": true
     },
@@ -101,6 +101,11 @@
     "title": "Transport",
     "body": "Collection and drop off can be made with as little as 24 hours’ notice from our main site at Corner Farm, West Knapton, Malton."
   },
+  "maintenance": {
+    "id": "maintenance",
+    "title": "Maintenance",
+    "body": "<ul><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
+  },
   "accessories": {
     "id": "accessories",
     "title": "Maintenance kits",
@@ -129,6 +134,7 @@
         "title": "Why choose us?",
         "id": "about",
         "text": "With 30 years' experience in the classic car industry, we are well placed to understand exactly how to keep your car in optimum condition whilst not in regular use.",
+        "more": "/about",
         "img": {
           "src": "/assets/images/xxx.jpg",
           "alt": "XXX"
@@ -137,6 +143,7 @@
       {
         "title": "Checked & Protected",
         "id": "checked",
+        "more": "/services",
         "text": "On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning.",
         "img": {
           "src": "/assets/images/yyy.jpg",
@@ -146,6 +153,7 @@
       {
         "title": "Transport",
         "id": "transport",
+        "more": "/transport",
         "text": "Our purpose-built enclosed transporters can collect your vehicle, or you can deliver your car to any of our sites in the Malton area. On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. ",
         "img": {
           "src": "/assets/images/xxx.jpg",
@@ -155,6 +163,7 @@
       {
         "title": "Insured & Secure",
         "id": "insured",
+        "more": "/about",
         "text": "Your vehicle will be comprehensively insured whilst in our possession and our secure premises are alarmed and under manned surveillance 24 hours a day.",
         "img": {
           "src": "/assets/images/xxx.jpg",
@@ -164,6 +173,7 @@
       {
         "title": "Maintained",
         "id": "maintained",
+        "more": "/services",
         "text": "Whilst in our care, we can arrange various lubrication and maintenance packages and regular road testing should you require this service. Prior to your car being returned to you it will receive a complimentary valet, with all levels checked.",
         "img": {
           "src": "/assets/images/xxx.jpg",
@@ -173,6 +183,7 @@
       {
         "title": "Accessories",
         "id": "accessories",
+        "more": "/accessories",
         "text": "Your vehicle will be comprehensively insured whilst in our possession and our secure premises are alarmed and under manned surveillance 24 hours a day.",
         "img": {
           "src": "/assets/images/xxx.jpg",

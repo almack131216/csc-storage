@@ -9,6 +9,7 @@ import Homepage from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Transport from "./pages/Transport/Transport";
 import Accessories from "./pages/Accessories/Accessories";
+import Maintenance from "./pages/Maintenance/Maintenance";
 import Header from "./components/Header/Header";
 import TitleTextImg from "./components/TitleTextImg/TitleTextImg";
 import Services from "./components/Services/Services";
@@ -109,6 +110,14 @@ class App extends React.Component<any, any> {
               path={`${process.env.PUBLIC_URL}/transport`}
               >
                 <Transport
+                siteData={this.state.data}
+                />
+            </Route>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/maintenance`}
+              >
+                <Maintenance
                 siteData={this.state.data}
                 />
             </Route>

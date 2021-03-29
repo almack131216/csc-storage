@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconName } from "@fortawesome/fontawesome-svg-core";
@@ -18,7 +19,7 @@ class services extends React.Component<any, any> {
     const myClass = this.props.data.class ? this.props.data.class : "";
     // const myServices = ...this.props.data.items;
     const myServices = this.props.data.items.map(
-      (item: { title: string; icon: string; text: string, img: any  }, index: number) => {
+      (item: { title: string; icon: string; text: string, img: any, more: string  }, index: number) => {
         return (
           <div className="item" key={index}>
             <div className="img-area">
@@ -27,7 +28,14 @@ class services extends React.Component<any, any> {
             <div className="text-area">
               <h3>{item.title}</h3>
               <p>{item.text}</p>
-              <a href="#" className="btn btn-light">More Information</a>
+              {/* <a href={item.more} className="btn btn-light">More Information</a> */}
+              <Link
+                className="margin-left-1"
+                to={item.more}
+                title="Link to more information page"
+              >
+                More Information
+              </Link>
             </div>
           </div>
         );

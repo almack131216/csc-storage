@@ -9,6 +9,17 @@ ul.contact-list {
     margin:0;
     padding:0;
 
+    &.email-full {
+      @media (max-width: $bp-sm-1) {
+        display:none;
+      }
+    }
+    &.email-compact {
+      @media (min-width: $bp-sm) {
+        display:none;
+      }
+    }
+
     svg {
       width:20px !important;
       margin-right:$offset-1;

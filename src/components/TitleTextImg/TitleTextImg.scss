@@ -2,7 +2,7 @@
 /*
   */
 .img-text {
-  background:blue;
+  // background:blue;
   padding:0;
   display:flex;
   flex-direction:row;
@@ -24,13 +24,19 @@
 
   .section-inner-text {
     width:50%;
-    background:green;
+    // background:green;
 
     .content-inner {
       padding:$offset-g2;
       text-align:left;
       max-width:490px;
-      background:red;
+      // background:red;
+
+      ul.contact-list {
+        // @media (max-width: $bp-tablet-1) {
+        //   font-size:0.9em;
+        // }
+      }
     }
   }
 }

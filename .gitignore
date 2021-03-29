@@ -26,3 +26,5 @@ yarn-error.log*
 # cust
 # assets
 # public
+# Local Netlify folder
+.netlify
