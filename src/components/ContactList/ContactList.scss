@@ -2,7 +2,8 @@
 
 ul.contact-list {
   list-style:none;
-  margin:$offset-g2 0;
+  @include resp-prop-half("margin-top", $offset-g2);
+  @include resp-prop-half("margin-bottom", $offset-g2);
   padding:0;
   
   li {

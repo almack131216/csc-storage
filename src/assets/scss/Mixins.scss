@@ -1,0 +1,40 @@
+/* Mixins.scss */
+
+@mixin resp-prop-half($prop, $val) {
+    #{$prop}: $val;
+    @media (max-width: $bp-tablet-1) {
+      #{$prop}: calc(#{$val} / 2);
+    }
+  }
+
+  @mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+  }
+
+  @mixin hide-text() {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  @mixin trim-string() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  @mixin trim-string-remove() {
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  
+  @mixin a-on-primary() {
+    color: $color_secondary;
+  }
+  
+  @mixin a-on-secondary() {
+    color: $color_primary;
+  }

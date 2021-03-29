@@ -64,6 +64,7 @@ class App extends React.Component<any, any> {
 
     return (
       <div className="App">
+        <Router>
         <Toolbar
           brandName={false}
           navigation={false}
@@ -79,8 +80,7 @@ class App extends React.Component<any, any> {
         <main>
           <Header 
             data={this.state.data.header}
-          />
-          <Router>
+          />          
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/`}
@@ -129,13 +129,13 @@ class App extends React.Component<any, any> {
                 siteData={this.state.data}
                 />
             </Route>
-          </Router>
           {/* <MainImage data={this.state.data.header} /> */}
         </main>
         <Contact
           id={this.state.data.contact.id}
           data={this.state.data.contact}          
         />
+        </Router>
       </div>
     );
   }

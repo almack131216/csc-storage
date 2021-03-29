@@ -38,6 +38,17 @@ h1 {
   line-height: 60px;
   font-weight: 300;
   color: $color_font-h1;
+  @include resp-prop-half("margin-top", $offset-g2);
+  @include resp-prop-half("margin-bottom", $offset-g2);
+
+  @media (min-width: $bp-sm) and (max-width: $bp-xs-1) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  @media (max-width: $bp-sm-1) {
+    font-size: 36px;
+    line-height: 40px;
+  }
 }
 
 h2 {
@@ -80,4 +91,22 @@ hr.dotted {
 
 hr.small {
   max-width: 60px;
+}
+
+
+/* REF: https://jsfiddle.net/h8uxmoj4/ */
+ul.bullets {
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    padding-left: 1.25rem;
+    position: relative;
+
+    &::before {
+      left: 0;
+      position: absolute;
+      content: "●";
+    }
+  }
 }

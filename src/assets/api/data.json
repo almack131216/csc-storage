@@ -104,7 +104,7 @@
   "maintenance": {
     "id": "maintenance",
     "title": "Maintenance",
-    "body": "<ul><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
+    "body": "<ul class=\"bullets\"><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
   },
   "accessories": {
     "id": "accessories",

@@ -1,7 +1,7 @@
 /* TitleSection.scss */
 
 section {
-  padding: $offset-g2;
+  @include resp-prop-half("padding", $offset-g2);
 
   @media (max-width: $bp-xs-1) {
     padding: $offset-g1;

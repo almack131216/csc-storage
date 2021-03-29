@@ -27,16 +27,22 @@
     // background:green;
 
     .content-inner {
-      padding:$offset-g2;
+      @include resp-prop-half("padding", $offset-g2);
       text-align:left;
       max-width:490px;
       // background:red;
 
-      ul.contact-list {
-        // @media (max-width: $bp-tablet-1) {
-        //   font-size:0.9em;
-        // }
+      h2 {
+        margin-top:0;
       }
+
+      // ul:not(.contact-list) {
+      //   list-style-position: inside;
+      //   padding-left: 0;
+      //   // @media (max-width: $bp-tablet-1) {
+      //   //   font-size:0.9em;
+      //   // }
+      // }
     }
   }
 }
