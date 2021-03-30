@@ -20,6 +20,28 @@ code {
   text-align: left;
 }
 
+section {
+  box-sizing: border-box;
+  text-align: center;
+  @include resp-prop-half("padding", $offset-g2);
+
+  @media (max-width: $bp-sm-1) {
+    text-align:left;
+    // padding: $offset-g1;    
+  }
+
+  > .content-inner,
+  > .section-inner {
+    display: inline-block;
+    max-width: $max-width;
+    margin: 0 auto;
+
+    &.body-text {
+      text-align:left;
+    }
+  }
+}
+
 .display-none {
   display: none;
 }
@@ -31,6 +53,8 @@ code {
 .display-inline-block {
   display: inline-block;
 }
+
+
 
 /* offsets */
 .pad-icon-left {

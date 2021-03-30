@@ -25,7 +25,7 @@ const About = props => {
         class="bg-primary"
       />
       <section>
-        <div className="content-inner">
+        <div className="content-inner body-text">
           <h1>Why choose us?</h1>
 
           <p>We provide maintained long and short term secure indoor storage for classic and modern cars. With 30 years' experience in the classic car industry, we are well placed to understand exactly how to keep your car in optimum condition whilst not in regular use.</p>

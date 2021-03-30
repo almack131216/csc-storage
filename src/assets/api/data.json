@@ -143,7 +143,7 @@
       {
         "title": "Checked & Protected",
         "id": "checked",
-        "more": "/services",
+        "more": "/maintenance",
         "text": "On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning.",
         "img": {
           "src": "/assets/images/yyy.jpg",
@@ -173,7 +173,7 @@
       {
         "title": "Maintained",
         "id": "maintained",
-        "more": "/services",
+        "more": "/maintenance",
         "text": "Whilst in our care, we can arrange various lubrication and maintenance packages and regular road testing should you require this service. Prior to your car being returned to you it will receive a complimentary valet, with all levels checked.",
         "img": {
           "src": "/assets/images/xxx.jpg",

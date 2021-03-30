@@ -1,6 +1,7 @@
 /* Header.css */
 
-.header-banner {
+.header-banner {  
+  min-height:60px;//because of toggle burger menu button
   // background:white;
 
   @media (max-width: $bp-tablet-1) {
@@ -11,7 +12,9 @@
   .section-inner {
     display:flex;
     flex-direction: column;
-    background:yellow;
+    align-items: center;
+    justify-content: center;
+    // background:yellow;
     // @include resp-prop-half("padding", $offset-g1);
     text-align:center;
   
@@ -22,11 +25,14 @@
       img {
         width: 100%;
         height: auto;
+        max-width:440px;
+
+        @media (max-width: $bp-tablet-1) {
+          width:80%;
+        }
       }
-    }
-  
+    } 
     
-  }
-  
+  }  
 }
 

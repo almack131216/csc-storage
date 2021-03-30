@@ -35,7 +35,7 @@ const Accessories = props => {
         class="bg-primary"
       />
       <section>
-        <div className="content-inner">
+        <div className="content-inner body-text">
           <h1>Accessories</h1>
           <p>We offer high quality indoor car covers at competitive prices, plus basic and luxury car maintenance kits, full of essentials like classic lubricants, fuel additives, anti-freeze, screen wash and brake fluid.</p>
         </div>

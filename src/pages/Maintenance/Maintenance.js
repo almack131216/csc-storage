@@ -35,7 +35,7 @@ const Maintenance = props => {
         class="bg-primary"
       />
       <section>
-        <div className="content-inner">
+        <div className="content-inner body-text">
           <h1>Preparation & Maintenance</h1>
           <p>Once your vehicle is in our care, it will be anti-freeze checked, cleaned and placed under a dust cover in our secured indoor unit. We then carry out regular battery conditioning, tyre pressure checks and if required we can periodically road test your car to ensure it remains in good driving condition.</p>
           <p>With our own in house Bodyshop, Trim Shop and Service Garage, we have become a one-stop-shop for the classic car enthusiast.  We can carry out all types of repairs and improvements to your car including paintwork, dealing with rust issues, dents, scratches, upholstery work, service and maintenance.</p>

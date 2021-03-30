@@ -42,13 +42,13 @@ class services extends React.Component<any, any> {
               <div className="body">
                 <p>{item.text}</p>
                 {/* <a href={item.more} className="btn btn-light">More Information</a> */}
-                <Link
+                {/* <Link
                   className="margin-left-1"
                   to={item.more}
                   title="Link to more information page"
                 >
                   More Information
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

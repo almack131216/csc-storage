@@ -1,58 +1,29 @@
 /* TitleSection.scss */
 
 section {
-  text-align:center;
-  @include resp-prop-half("padding", $offset-g2);
-
-  @media (max-width: $bp-xs-1) {
-    text-align:left;
-    padding: $offset-g1;    
-
-    &.title:not(#aboutXXX) {
-      padding-top: $offset-g2;
-    }
-
-    &.title#aboutXXX,
-    &#services-listXXX {
-      padding-bottom: $offset-g2;
-    }
-  }
-
-  > .section-inner {
-    display: inline-block;
-    max-width: $max-width;
-    margin: 0 auto;
-  }
-
-  &.title {
-    // padding-top: calc(#{$offset-g2} * 2);
-    @include resp-prop-half("padding-top", calc(#{$offset-g2} * 2));
-  }
-
   &.title {
     text-align:center;
-    // border: 1px solid red;
+    @include resp-prop-half("padding-top", calc(#{$offset-g2} * 2));    
 
     h2 {
       display: inline-block;
       margin: 0 auto;
       padding: 0;
-      position: relative;
 
       .line-through {
         background: linear-gradient(to left top, transparent 47.75%, red 49.5%, red 50.5%, transparent 52.25%);
       }
 
-      // &:before {
-      //   content: "";
-      //   position: absolute;
-      //   width: 50%;
-      //   max-width: 100px;
-      //   height: 1px;
-      //   bottom: 0;
-      //   left: 25%;
-      //   border-bottom: 1px solid $color_font-default;
-      // }
+      &:before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        max-width: 100px;
+        height: 1px;
+        bottom: 0;
+        left: 25%;
+        border-bottom: 1px solid $color_font-default;
+      }
     }
     /* (END) h2 */
 
@@ -69,11 +40,6 @@ section {
 
     &.bg-secondary .body {
       font-weight: bold;
-    }
-
-    &.bg-primary h2:before,
-    &.bg-fourth h2:before {
-      border-color: white;
     }
   }
 }

@@ -35,7 +35,7 @@ const Transport = props => {
         class="bg-primary"
       />
       <section>
-        <div className="content-inner">
+        <div className="content-inner body-text">
           <h1>Logistics</h1>
           <p>Collection and drop off can be made with as little as 24 hours’ notice from our main site at Corner Farm, West Knapton, Malton. If you would prefer to have your vehicle collected or delivered, our purpose built versatile enclosed car transporters are tailored to our specific needs.</p>
           <p>We have a state of the art 12-metre vehicle featuring adjustable air suspension, hydraulic rear door/ramp, winch, vehicle lift, height sensors and adaptive cruise control. This very capable 16-ton DAF LF55 can carry up to three vehicles. We also have a lightweight enclosed single car transporter ideal for smaller sports cars and individual car collections.</p>
