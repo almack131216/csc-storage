@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconName } from "@fortawesome/fontawesome-svg-core";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { IconName } from "@fortawesome/fontawesome-svg-core";
 import {
   faCircle,
   faCode,
@@ -27,7 +27,7 @@ class services extends React.Component<any, any> {
               to={item.more}
               title="Link to more information page"
             >
-              <img src={item.img.src} />
+              <img src={item.img.src} alt={item.img.alt}/>
             </Link>                
             </div>
             <div className="text-area">

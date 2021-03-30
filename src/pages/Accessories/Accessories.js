@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 // import parse from "html-react-parser";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import TitleTextImg from "../../components/TitleTextImg/TitleTextImg";
-import TitleSection from "../../components/TitleSection/TitleSection";
-import Services from "../../components/Services/Services";
 
 const Accessories = props => {
   const siteData = props.siteData;

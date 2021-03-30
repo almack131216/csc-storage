@@ -1,8 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhoneAlt, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-import TitleSection from "../TitleSection/TitleSection";
-import parse from "html-react-parser";
+// import parse from "html-react-parser";
 
 const contactList = props => {
   return (

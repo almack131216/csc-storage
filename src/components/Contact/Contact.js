@@ -2,7 +2,6 @@ import React from "react";
 // import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import TitleSection from "../TitleSection/TitleSection";
 import parse from "html-react-parser";
 import ContactList from "../ContactList/ContactList";
 
