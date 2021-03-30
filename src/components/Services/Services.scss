@@ -35,7 +35,7 @@
         text-align:left;
 
         h3 {
-          margin: $offset-g1 auto;
+          margin: $offset-g1 auto;          
         }
 
         p {
@@ -77,6 +77,12 @@
         width:70%;
         text-align: left;
         padding: 0 0 0 $offset-g1;
+
+        .body {
+          @media (max-width: $bp-xs-1){
+            display:none;
+          }
+        }
 
         h3 {
           margin: 0;

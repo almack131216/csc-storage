@@ -6,7 +6,7 @@ import parse from "html-react-parser";
 
 const header = props => {
   return (
-    <section className="header-banner bg-secondary">
+    <section className="header-banner bg-white">
       <div className="section-inner">
         <a href="/" className="logo-img">
           <img src={props.data.img.src} alt={props.data.img.alt} />

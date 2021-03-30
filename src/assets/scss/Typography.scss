@@ -57,6 +57,8 @@ h2 {
   font-weight: 300;
   letter-spacing: 0.1em;
   color: $color_font-h2;
+  @include resp-prop-half("margin-top", $offset-g2);
+  @include resp-prop-half("margin-bottom", $offset-g2);
 
   @media (min-width: $bp-sm) and (max-width: $bp-xs-1) {
     font-size: 36px;
@@ -75,6 +77,19 @@ h3 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: $color_font-h3;
+
+  a {
+    text-decoration:none;
+  }
+
+  @media (min-width: $bp-sm) and (max-width: $bp-xs-1) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (max-width: $bp-sm-1) {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 /* <hr> */

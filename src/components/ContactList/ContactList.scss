@@ -5,6 +5,10 @@ ul.contact-list {
   @include resp-prop-half("margin-top", $offset-g2);
   @include resp-prop-half("margin-bottom", $offset-g2);
   padding:0;
+
+  @media (max-width: $bp-xs-1) {
+    margin-bottom:0;
+  }
   
   li {
     margin:0;

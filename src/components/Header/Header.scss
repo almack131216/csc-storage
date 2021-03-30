@@ -1,20 +1,32 @@
 /* Header.css */
 
 .header-banner {
-  background:yellow;
-  padding:$offset-g1;
-  text-align:center;
-
-  .logo-img {
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
+  // background:white;
 
   @media (max-width: $bp-tablet-1) {
-    background:orange;
+    // background:orange;
+    padding:5px;
   }
+
+  .section-inner {
+    display:flex;
+    flex-direction: column;
+    background:yellow;
+    // @include resp-prop-half("padding", $offset-g1);
+    text-align:center;
+  
+    .logo-img {
+      font-size: 0;
+      line-height: 0;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  
+    
+  }
+  
 }
 

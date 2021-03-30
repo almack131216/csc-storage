@@ -23,19 +23,33 @@ class services extends React.Component<any, any> {
         return (
           <div className="item" key={index}>
             <div className="img-area">
+            <Link
+              to={item.more}
+              title="Link to more information page"
+            >
               <img src={item.img.src} />
+            </Link>                
             </div>
             <div className="text-area">
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-              {/* <a href={item.more} className="btn btn-light">More Information</a> */}
+              <h3>
               <Link
-                className="margin-left-1"
-                to={item.more}
-                title="Link to more information page"
-              >
-                More Information
-              </Link>
+                  to={item.more}
+                  title="Link to more information page"
+                >
+                  {item.title}
+                </Link>
+              </h3>
+              <div className="body">
+                <p>{item.text}</p>
+                {/* <a href={item.more} className="btn btn-light">More Information</a> */}
+                <Link
+                  className="margin-left-1"
+                  to={item.more}
+                  title="Link to more information page"
+                >
+                  More Information
+                </Link>
+              </div>
             </div>
           </div>
         );
