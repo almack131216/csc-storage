@@ -110,18 +110,29 @@ hr.small {
 
 
 /* REF: https://jsfiddle.net/h8uxmoj4/ */
+/* https://www.toptal.com/designers/htmlarrows/punctuation/bullet/ */
 ul.bullets {
   padding-left: 0;
 
   li {
     list-style: none;
-    padding-left: 1.25rem;
+    padding-left: $offset-2;
     position: relative;
 
     &::before {
       left: 0;
       position: absolute;
-      content: "●";
+      content: "\2022";
+    }
+  }
+
+  &.check {
+    li {
+      padding-left: 25px;
+
+      &::before {
+        content: "\2713";
+      }
     }
   }
 }

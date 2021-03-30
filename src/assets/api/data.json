@@ -104,12 +104,12 @@
   "maintenance": {
     "id": "maintenance",
     "title": "Maintenance",
-    "body": "<ul class=\"bullets\"><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
+    "body": "<ul class=\"bullets check\"><li>Inspected & cleaned<\/li><li>Covered and protected<\/li><li>Lubricants checked<\/li><li>Battery checked<\/li><li>Tyre pressures checked<\/li><\/ul>"
   },
   "accessories": {
     "id": "accessories",
     "title": "Maintenance kits",
-    "body": "<ul><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
+    "body": "<ul class=\"bullets\"><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
   },
   "imgBanner": {
     "id": "imgBanner",
