@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /.netlify
+src/assets/images
+public/assets/images
 
 # testing
 /coverage

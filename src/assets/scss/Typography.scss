@@ -1,11 +1,10 @@
 /* Typography.css */
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
 body {
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.1em;
-  line-height: 1.8em;
-  font-weight: 500;
+  font-family: $base-font-family;
+	font-size: $base-font-size;
+  color: $base-font-color;
+  line-height: $base-font-line-height;
   letter-spacing: 0.1em;
   color: $color_font-default;
 
@@ -18,11 +17,6 @@ body {
   }
 }
 
-p {
-  margin: 0 0 $offset-g2 0;
-  color: $color_font-default;
-}
-
 a {
   color: $color_font-hyperlink;
   &:hover {
@@ -31,6 +25,25 @@ a {
   &:active {
     color: #ff9900;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "Century Gothic", "Apple Gothic", sans-serif;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 $offset-g2 0;
+  color: $color_font-default;
+  font-size: $base-font-size;
+  color: $base-font-color;
+  line-height: $base-font-line-height;
 }
 
 h1 {

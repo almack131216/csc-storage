@@ -6,7 +6,7 @@ import { faEnvelope, faPhoneAlt, faMapMarkerAlt } from "@fortawesome/free-solid-
 const contactList = props => {
   return (
     <ul id={props.id ? props.id : null} className="contact-list">
-      {/* <a href="mailto:alex@amactive.net">{props.data.email}</a> */}
+      {/* <a href={`mailto:${props.list.emailMailto}`}>{props.data.email}</a> */}
       <li><FontAwesomeIcon icon={faPhoneAlt} />{props.list.telephone}</li>
       <li><FontAwesomeIcon icon={faEnvelope} /><a href={`mailto:${props.list.emailMailto}`}>Send Email</a></li>
       {/* <li className="email-full"><FontAwesomeIcon icon={faEnvelope} /><a href={`mailto:${props.list.emailMailto}`}>{props.list.email}</a></li>

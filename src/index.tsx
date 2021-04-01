@@ -5,7 +5,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <App id="top" appTitle="amactive 2020 | MAKE AMACTIVE GREAT AGAIN" />,
+  <App id="top" appTitle="Classic Car Storage | Classic & Sportscar Centre, Malton" />,
   document.getElementById("root")
 );
 

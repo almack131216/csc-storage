@@ -1,13 +1,11 @@
 /* Base.scss */
 
-/* from index.css */
 body {
+	//line-height:$base-font-line-height;
+	// background:$color_bg-body;
+	border-color: $color_layout-border;
+	border: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {

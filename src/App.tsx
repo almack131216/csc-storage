@@ -29,10 +29,9 @@ class App extends React.Component<any, any> {
     };
   }
 
-  componentDidMount() {
-    // console.log("[App.js] componentDidMount");
-    //"http://www.amactive.net/amactive2020/data.json"
-  }
+  // componentDidMount() {
+  //   // console.log("[App.js] componentDidMount");
+  // }
 
   drawerToggleClickHandler = () => {
     this.setState((prevState: { sideDrawerOpen: any }) => {

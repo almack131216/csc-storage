@@ -34,6 +34,10 @@
         padding: 0 0 $offset-g2 0;
         text-align:left;
 
+        .body {
+          padding-right:$offset-g1;
+        }
+
         h3 {
           margin: $offset-g1 auto;          
         }
