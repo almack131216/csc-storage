@@ -10,9 +10,22 @@ ul.contact-list {
     margin-bottom:0;
   }
   
+  &.inline {
+    li {
+      @media (min-width: $bp-sm-1) {
+        display:inline;
+        padding:0 $offset-g1;
+        border-right:1px dotted white;
+        &:last-child {
+          border-right:none;
+        }
+      }
+    }
+  }
+
   li {
     margin:0;
-    padding:0;
+    padding:0;    
 
     &.email-full {
       @media (max-width: $bp-sm-1) {

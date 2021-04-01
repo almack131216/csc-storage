@@ -4,8 +4,13 @@ import { faEnvelope, faPhoneAlt, faMapMarkerAlt } from "@fortawesome/free-solid-
 // import parse from "html-react-parser";
 
 const contactList = props => {
+  let classes = ["contact-list"];
+  if (props.classes) {
+    classes.push(props.classes);
+  }
+
   return (
-    <ul id={props.id ? props.id : null} className="contact-list">
+    <ul id={props.id ? props.id : null} className={classes.join(" ")}>
       {/* <a href={`mailto:${props.list.emailMailto}`}>{props.data.email}</a> */}
       <li><FontAwesomeIcon icon={faPhoneAlt} />{props.list.telephone}</li>
       <li><FontAwesomeIcon icon={faEnvelope} /><a href={`mailto:${props.list.emailMailto}`}>Send Email</a></li>

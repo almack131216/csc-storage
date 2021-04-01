@@ -13,7 +13,7 @@ const contact = props => {
         <div className="content-inner">
           <h2>{props.data.title}</h2>
           <p>{props.data.body}</p>
-          <ContactList list={props.data}/>
+          <ContactList list={props.data} classes="inline" />
         </div>
       </section>
       <hr className="dotted" />
