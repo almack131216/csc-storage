@@ -7,7 +7,7 @@ import ContactList from "../ContactList/ContactList";
 
 const contact = props => {
   return (
-    <footer className="bg-secondary">
+    <footer id="contact" className="bg-secondary">
       {/* <Link id={props.id ? props.id : null}>XXX</Link> */}
       <section>
         <div className="content-inner">
