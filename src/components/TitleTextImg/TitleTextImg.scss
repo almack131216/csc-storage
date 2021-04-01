@@ -8,8 +8,6 @@ section.img-text {
     display:flex;
     flex-direction:row;
   }
-  
-  
 
   .section-inner-img {
     width:50%;
@@ -42,6 +40,10 @@ section.img-text {
       @include resp-prop-half("padding", $offset-g2);
       text-align:left;
       max-width:490px;
+
+      .body {
+        font-size:1.2em;
+      }
     }
 
     @media (max-width: $bp-tablet-1) {

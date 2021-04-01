@@ -144,7 +144,7 @@
         "title": "Transport",
         "id": "transport",
         "more": "/transport",
-        "text": "Our purpose-built enclosed transporters can collect your vehicle, or you can deliver your car to any of our sites in the Malton area. On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. ",
+        "text": "Our purpose-built enclosed transporters can collect your vehicle, or you can deliver your car to any of our sites in the Malton area.",
         "img": {
           "src": "/assets/images/pr/car-transport-services.jpg",
           "alt": "XXX"
@@ -154,7 +154,7 @@
         "title": "Checked & Protected",
         "id": "checked",
         "more": "/maintenance",
-        "text": "On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning.",
+        "text": "Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning.",
         "img": {
           "src": "/assets/images/pr/fluid-checked.jpg",
           "alt": "YYY"
@@ -174,7 +174,7 @@
         "title": "Maintained",
         "id": "maintained",
         "more": "/maintenance",
-        "text": "Whilst in our care, we can arrange various lubrication and maintenance packages and regular road testing should you require this service. Prior to your car being returned to you it will receive a complimentary valet, with all levels checked.",
+        "text": "We can provide lubrication, maintenance packages and regular road testing should you require this service. Prior to your car being returned to you it will receive a complimentary valet, with all levels checked.",
         "img": {
           "src": "/assets/images/pr/tyres-checked.jpg",
           "alt": "XXX"

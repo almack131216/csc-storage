@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import parse from "html-react-parser";
 // import { Link } from "react-router-dom";
 import TitleTextImg from "../../components/TitleTextImg/TitleTextImg";
+import Services from "../../components/Services/Services";
 
 const Accessories = props => {
   const siteData = props.siteData;
@@ -38,7 +39,7 @@ const Accessories = props => {
           <p>We offer high quality indoor car covers at competitive prices, plus basic and luxury car maintenance kits, full of essentials like classic lubricants, fuel additives, anti-freeze, screen wash and brake fluid.</p>
         </div>
       </section>
-      {/* {servicesBlocks && <Services id="services-list" data={servicesBlocks} />} */}
+      {servicesBlocks && <Services id="services-list" data={servicesBlocks} />}
     </React.Fragment>
   );
 };
