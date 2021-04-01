@@ -16,15 +16,15 @@ const About = props => {
   return (
     <React.Fragment>
       <TitleTextImg 
-        id="home"
-        title={siteData.home.title}
-        body={siteData.home.body}
-        contact={siteData.contact}
+        id="about"
+        title={siteData.about.title}
+        body={siteData.about.body}
+        // contact={siteData.contact}
         class="bg-primary"
       />
       <section>
         <div className="content-inner body-text">
-          <h1>Why choose us?</h1>
+          <h1>About Us</h1>
 
           <p>We provide maintained long and short term secure indoor storage for classic and modern cars. With 30 years' experience in the classic car industry, we are well placed to understand exactly how to keep your car in optimum condition whilst not in regular use.</p>
           <p>Our purpose-built enclosed transporters can collect your vehicle, or you can deliver your car to any of our sites in the Malton area. On arrival your car will be cleaned, photographed, and inspected before being placed into our secure facility. Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning. Your vehicle will be comprehensively insured whilst in our possession and our secure premises are alarmed and under manned surveillance 24 hours a day.</p>

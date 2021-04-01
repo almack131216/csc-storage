@@ -29,7 +29,7 @@
     },
     {
       "id": "about",
-      "title": "Why Us?",
+      "title": "Why Choose Us?",
       "url": "/about",
       "navTop": true,
       "navSide": true
@@ -79,8 +79,8 @@
   },
   "about": {
     "id": "about",
-    "title": "Classic Car Storage",
-    "body": "...",
+    "title": "Why choose us?",
+    "body": "<ul class=\"bullets\"><li>30 years' experience in the classic car industry<\/li><li>Purpose-built enclosed transporters<\/li><li>Covered and protected<\/li><li>Lubricants checked<\/li><li>Battery checked<\/li><li>Tyre pressures checked<\/li><\/ul>",
     "banner": {
       "title": "XXX",
       "url": "",
@@ -108,7 +108,7 @@
   },
   "accessories": {
     "id": "accessories",
-    "title": "Maintenance kits",
+    "title": "Accessories",
     "body": "<ul class=\"bullets\"><li>High quality indoor car covers<\/li><li>Classic lubricants<\/li><li>Fuel additives<\/li><li>Anti-freeze<\/li><li>Screen wash<\/li><li>Brake fluid<\/li><\/ul>"
   },
   "imgBanner": {
