@@ -66,30 +66,12 @@
   "home": {
     "id": "home",
     "title": "Classic Car Storage",
-    "body": "Maintained long and short term secure indoor storage for classic and modern cars.",
-    "banner": {
-      "title": "XXX",
-      "url": "",
-      "text": "",
-      "img": {
-        "src": "/assets/images/pr/classic-car-storage-cover-etype.jpg",
-        "alt": "XXX"
-      }
-    }
+    "body": "Maintained long and short term secure indoor storage for classic and modern cars."
   },
   "about": {
     "id": "about",
     "title": "Why choose us?",
-    "body": "<ul class=\"bullets\"><li>30 years' experience in the classic car industry<\/li><li>Purpose-built enclosed transporters<\/li><li>Covered and protected<\/li><li>Lubricants checked<\/li><li>Battery checked<\/li><li>Tyre pressures checked<\/li><\/ul>",
-    "banner": {
-      "title": "XXX",
-      "url": "",
-      "text": "",
-      "img": {
-        "src": "/assets/images/pr/classic-car-storage-cover-etype.jpg",
-        "alt": "XXX"
-      }
-    }
+    "body": "<ul class=\"bullets\"><li>30 years' experience in the classic car industry<\/li><li>Purpose-built enclosed transporters<\/li><li>Covered and protected<\/li><li>Lubricants checked<\/li><li>Battery checked<\/li><li>Tyre pressures checked<\/li><\/ul>"
   },
   "rates": {
     "id": "rates",
@@ -136,8 +118,8 @@
         "text": "With 30 years' experience in the classic car industry, we are well placed to understand exactly how to keep your car in optimum condition whilst not in regular use.",
         "more": "/about",
         "img": {
-          "src": "/assets/images/pr/staff-photo.jpg",
-          "alt": "XXX"
+          "src": "/assets/images/pr/aston-martin-front.jpg",
+          "alt": "Aston Martin front"
         }
       },
       {
@@ -147,7 +129,7 @@
         "text": "Our purpose-built enclosed transporters can collect your vehicle, or you can deliver your car to any of our sites in the Malton area.",
         "img": {
           "src": "/assets/images/pr/car-transport-services.jpg",
-          "alt": "XXX"
+          "alt": "Classic Car Transporter"
         }
       },
       {
@@ -157,7 +139,7 @@
         "text": "Once in storage, it will be protected using a high-quality soft cover with regular battery checks and conditioning.",
         "img": {
           "src": "/assets/images/pr/fluid-checked.jpg",
-          "alt": "YYY"
+          "alt": "Jaguar E-Type fluids checked"
         }
       },      
       {
@@ -167,7 +149,7 @@
         "text": "Your vehicle will be comprehensively insured whilst in our possession and our secure premises are alarmed and under manned surveillance 24 hours a day.",
         "img": {
           "src": "/assets/images/pr/secure-icon.jpg",
-          "alt": "XXX"
+          "alt": "Secure lock icon"
         }
       },
       {
@@ -177,7 +159,7 @@
         "text": "We can provide lubrication, maintenance packages and regular road testing should you require this service. Prior to your car being returned to you it will receive a complimentary valet, with all levels checked.",
         "img": {
           "src": "/assets/images/pr/tyres-checked.jpg",
-          "alt": "XXX"
+          "alt": "Jaguar E-Type tyre pressures checked"
         }
       },
       {
@@ -187,7 +169,7 @@
         "text": "Your vehicle will be comprehensively insured whilst in our possession and our secure premises are alarmed and under manned surveillance 24 hours a day.",
         "img": {
           "src": "/assets/images/pr/accessories-bag.jpg",
-          "alt": "XXX"
+          "alt": "Classic Car accessories"
         }
       }
     ]
