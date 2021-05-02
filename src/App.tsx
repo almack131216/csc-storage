@@ -4,9 +4,11 @@ import {
   BrowserRouter as Router,
   Route
 } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./App.scss";
 import Homepage from "./pages/Home/Home";
 import About from "./pages/About/About";
+import Privacy from "./pages/Privacy/Privacy";
 import Transport from "./pages/Transport/Transport";
 import Accessories from "./pages/Accessories/Accessories";
 import Maintenance from "./pages/Maintenance/Maintenance";
@@ -16,7 +18,7 @@ import SiteData from "./assets/api/data.json";
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
-
+import CookieConsent from "react-cookie-consent";
 class App extends React.Component<any, any> {
   constructor(props: any) {
     super(props);
@@ -102,6 +104,14 @@ class App extends React.Component<any, any> {
             </Route>
             <Route
               exact
+              path={`${process.env.PUBLIC_URL}/privacy`}
+              >
+                <Privacy
+                siteData={this.state.data}
+                />
+            </Route>
+            <Route
+              exact
               path={`${process.env.PUBLIC_URL}/transport`}
               >
                 <Transport
@@ -130,6 +140,9 @@ class App extends React.Component<any, any> {
           id={this.state.data.contact.id}
           data={this.state.data.contact}          
         />
+        <CookieConsent>
+          This website uses <Link to="/privacy">cookies</Link> to enhance the user experience.
+        </CookieConsent>
         </Router>
       </div>
     );

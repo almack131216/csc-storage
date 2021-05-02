@@ -5,7 +5,7 @@ $max-width: 900px;
 /* color */
 $color_primary: #263762;
 $color_secondary: #8b000b;
-$color_three: #0091cf;
+$color_secondary-light: #e5f7fe;
 $color_four: #01395a;
 
 /* base font */
@@ -23,6 +23,7 @@ $color_font-default: #333;
 $color_font-hyperlink: black;
 $color_font-hyperlink-hover: $color_secondary;
 $color_font-hyperlink-hover-bg: black;
+$color_font-hyperlink-accent: #20b1f3;
 
 $color_border: #ddd;
 
@@ -55,3 +56,10 @@ $color_layout-border: #dfdfdf;
 $color_layout-border-strong: #ccc;
 $color_layout-border-strongest: #000;
 // $color_layout-border-priority: $color_priority-border;
+
+/* table */
+$table-color-border: $color_layout-border;
+$table-color-bg-th: #ccc;
+$table-color-bg-tr: white;
+$table-color-bg-tr-odd: #f9f9f9;
+$table-color-bg-tr-hover: #f3f3f3;

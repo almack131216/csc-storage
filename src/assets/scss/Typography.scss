@@ -27,6 +27,10 @@ a {
   }
 }
 
+.color-link-accent {
+  color: $color_font-hyperlink-accent;
+}
+
 h1,
 h2,
 h3,
@@ -105,6 +109,16 @@ h3 {
     font-size: 14px;
     line-height: 20px;
   }
+}
+
+h4 {
+  font-size: 16px;
+  line-height: $offset-2;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: $color_font-h4;
+  margin:$offset-g2 0 $offset-g1 0;
 }
 
 /* <hr> */

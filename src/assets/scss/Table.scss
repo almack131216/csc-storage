@@ -1,0 +1,28 @@
+/* Table.scss */
+
+.table {
+	border: 1px solid $color_layout-border;
+	margin: $offset-g2 0;
+	display: block;
+	width: 100%;
+	max-width: 800px;
+    border-collapse: collapse;
+
+	tr {
+        border-bottom: 1px solid $color_layout-border;
+
+		th {
+			background: $color_layout-border;
+			padding: 5px $offset-1;
+			font-weight: bold;
+		}
+
+		&:nth-child(odd) {
+			background: $table-color-bg-tr-odd;
+		}
+
+		td {
+			padding: 5px $offset-1;
+		}
+	}
+}
