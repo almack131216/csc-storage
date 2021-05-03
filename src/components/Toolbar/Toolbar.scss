@@ -16,6 +16,10 @@
 
 .toolbar.no-toolbar {
   width: calc(#{$offset-g2 * 2});
+  @media (max-width:$bp-xxs-1){//210503
+    width:$offset-g2;
+    // height:$offset-g2;
+  }
 }
 
 .toolbar__toggle-button {
