@@ -134,11 +134,6 @@ class App extends React.Component<any, any> {
                 siteData={this.state.data}
                 />
             </Route>
-            <Route>
-                <Homepage
-                siteData={this.state.data}
-                />
-            </Route>
           {/* <MainImage data={this.state.data.header} /> */}
         </main>
         <Contact
