@@ -17,7 +17,7 @@ const Privacy = props => {
     <React.Fragment>
       <section>
         <div className="content-inner body-text">
-          <h1>Privacy Policy</h1>
+          <h1>Privacy Policy H1</h1>
           <p>This privacy policy explains how personal data is collected and used when you use our websites. It also explains how we process any data that you supply to us on this website.</p> 
           <p>Classic &amp; Sportscar Limited is the Data Controller for any personal data that you supply to us as part of the services you are contracted to receive from us. As our client, you are our data subject.</p>
           <h4>Our address is:</h4>
@@ -34,8 +34,8 @@ const Privacy = props => {
           <table className="table">
             <tbody>
               <tr>
-                <th>What we do</th>
-                <th>Our legal basis under GDPR</th>
+                <th width="30%">What we do</th>
+                <th width="70%">Our legal basis under GDPR</th>
               </tr>                    
               <tr>
                 <td>
@@ -81,8 +81,8 @@ const Privacy = props => {
           <table className="table">
             <tbody>
               <tr>
-                <th>Personal Data</th>
-                <th>Explanation</th>
+                <th width="30%">Personal Data</th>
+                <th width="70%">Explanation</th>
               </tr>                    
               <tr>
                 <td>
@@ -110,7 +110,7 @@ const Privacy = props => {
 
           <h4>Your Rights</h4>
           <p>You have the following rights in relation to personal data held on you by the Group:</p>
-          <ul>
+          <ul className="bullets">
             <li>The right to be informed about how personal data is used – (this notice)</li>
             <li>The right to access a copy of personal data that the Group holds about you</li>
             <li>The right to rectification of any errors in personal data held by the Group</li>
@@ -135,7 +135,7 @@ const Privacy = props => {
           </p>
           <h4>Cookies</h4>
           <p>
-          This website uses Google Analytics, a web analytics service provided by Google, Inc. Google Analytics sets a cookie in order to evaluate your use of this website and compile reports for us on activity on the website. Google stores the information collected by the cookie on servers in the United States and the transfer of the data to servers in the USA is governed by the EU-US Privacy Shield framework. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above. More information about Google's compliance with GDPR can be obtained from their website <a href="https://privacy.google.com/businesses/compliance" target="_blank" title="Link to this page in a new window">https://privacy.google.com/businesses/compliance</a>.
+          This website uses Google Analytics, a web analytics service provided by Google, Inc. Google Analytics sets a cookie in order to evaluate your use of this website and compile reports for us on activity on the website. Google stores the information collected by the cookie on servers in the United States and the transfer of the data to servers in the USA is governed by the EU-US Privacy Shield framework. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above. More information about Google's compliance with GDPR can be obtained from their website: <a href="https://privacy.google.com/businesses/compliance" target="_blank" title="Link to this page in a new window">Google Compliance</a>.
           </p>
           <p>
           Cookies are text files placed on your computer to collect standard internet log information and visitor behaviour information. This information is used to track visitor use of the website and to compile statistical reports on website activity. For further information visit <a href="https://www.aboutcookies.org" target="_blank" title="Link to this page in a new window">www.aboutcookies.org</a>.

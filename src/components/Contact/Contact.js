@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import parse from "html-react-parser";
@@ -17,7 +17,11 @@ const contact = props => {
         </div>
       </section>
       <hr className="dotted" />
-      <p className="copyright">{parse(props.data.copyright)}</p>
+      <p className="copyright">
+        {parse(props.data.copyright)}
+        &nbsp;-&nbsp;
+        <Link to="/privacy">Privacy</Link>
+      </p>
     </footer>
   );
 };

@@ -44,6 +44,10 @@
 .bg-secondary a,
 .bg-third a {
   color: white;
+
+  &:hover {
+    color: white;
+  }
 }
 
 .text-primary {
