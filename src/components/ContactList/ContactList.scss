@@ -19,13 +19,16 @@ ul.contact-list {
         &:last-child {
           border-right:none;
         }
-      }
+      }      
     }
   }
 
   li {
     margin:0;
     padding:0;    
+    @media (max-width: $bp-xs-1) {
+      margin-bottom:$offset-g1;
+    }
 
     &.email-full {
       @media (max-width: $bp-sm-1) {
