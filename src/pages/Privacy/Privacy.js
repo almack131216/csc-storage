@@ -1,15 +1,13 @@
 import React, { useEffect } from "react";
-// import parse from "html-react-parser";
-// import { Link } from "react-router-dom";
-import TitleTextImg from "../../components/TitleTextImg/TitleTextImg";
+import { setDocumentTitle, ConsoleLog } from "../../assets/js/Helpers";
 
 const Privacy = props => {
-  const siteData = props.siteData;
+  // const siteData = props.siteData;
 
   useEffect(() => {
-    // ConsoleLog('[About]');
+    ConsoleLog('[Privacy]');
     window.scrollTo(0, 0);
-    // setDocumentTitle(`About ${SiteData.brand.name}`);
+    setDocumentTitle(`Privacy Policy | Classic Car Storage`);
   }, []);
   // (END) useEffect
 
@@ -17,7 +15,7 @@ const Privacy = props => {
     <React.Fragment>
       <section>
         <div className="content-inner body-text">
-          <h1>Privacy Policy H1</h1>
+          <h1>Privacy Policy</h1>
           <p>This privacy policy explains how personal data is collected and used when you use our websites. It also explains how we process any data that you supply to us on this website.</p> 
           <p>Classic &amp; Sportscar Limited is the Data Controller for any personal data that you supply to us as part of the services you are contracted to receive from us. As our client, you are our data subject.</p>
           <h4>Our address is:</h4>
@@ -122,7 +120,7 @@ const Privacy = props => {
           </ul>
 
           <p>
-            If you wish to learn more about these rights and how they operate, please look at the ICO's website <a href="https://ico.org.uk/for-the-public/" target="_blank" title="Link to this page in a new window">https://ico.org.uk/for-the-public/</a>.
+            If you wish to learn more about these rights and how they operate, please look at the ICO's website <a href="https://ico.org.uk/for-the-public/" target="_blank" title="Link to this page in a new window" rel="noopener noreferrer">https://ico.org.uk/for-the-public/</a>.
           </p>
           <p>
             The Group does not operate any automated decision making systems.
@@ -131,14 +129,14 @@ const Privacy = props => {
             You have a right to request a copy of the personal data that we hold about you. If you would like a copy of some or all of your personal data please email <span className="color-link-accent">accounts@classicandsportscar.ltd.uk</span> or write to our Group Data Protection and Compliance Officer at Classic & Sportscar Ltd, Corner Farm, West Knapton, Malton, YO17 8JB. Proof of your identity will be required for security purposes.
           </p>
           <p>
-            If you are unhappy with the response that you receive from us when you exercise your GDPR rights or Data Protection Act 2018 rights, you have the right to lodge a complaint to the ICO. More guidance about raising a complaint with us is available on the ICO's website <a href="https://ico.org.uk/make-a-complaint/" target="_blank" title="Link to this page in a new window">https://ico.org.uk/make-a-complaint/</a> and for raising a complaint with the ICO, more information is available on <a href="https://ico.org.uk/concerns/" target="_blank" title="Link to this page in a new window">https://ico.org.uk/concerns/</a>.
+            If you are unhappy with the response that you receive from us when you exercise your GDPR rights or Data Protection Act 2018 rights, you have the right to lodge a complaint to the ICO. More guidance about raising a complaint with us is available on the ICO's website <a href="https://ico.org.uk/make-a-complaint/" target="_blank" title="Link to this page in a new window" rel="noopener noreferrer">https://ico.org.uk/make-a-complaint/</a> and for raising a complaint with the ICO, more information is available on <a href="https://ico.org.uk/concerns/" target="_blank" title="Link to this page in a new window" rel="noopener noreferrer">https://ico.org.uk/concerns/</a>.
           </p>
           <h4>Cookies</h4>
           <p>
-          This website uses Google Analytics, a web analytics service provided by Google, Inc. Google Analytics sets a cookie in order to evaluate your use of this website and compile reports for us on activity on the website. Google stores the information collected by the cookie on servers in the United States and the transfer of the data to servers in the USA is governed by the EU-US Privacy Shield framework. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above. More information about Google's compliance with GDPR can be obtained from their website: <a href="https://privacy.google.com/businesses/compliance" target="_blank" title="Link to this page in a new window">Google Compliance</a>.
+          This website uses Google Analytics, a web analytics service provided by Google, Inc. Google Analytics sets a cookie in order to evaluate your use of this website and compile reports for us on activity on the website. Google stores the information collected by the cookie on servers in the United States and the transfer of the data to servers in the USA is governed by the EU-US Privacy Shield framework. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above. More information about Google's compliance with GDPR can be obtained from their website: <a href="https://privacy.google.com/businesses/compliance" target="_blank" title="Link to this page in a new window" rel="noopener noreferrer">Google Compliance</a>.
           </p>
           <p>
-          Cookies are text files placed on your computer to collect standard internet log information and visitor behaviour information. This information is used to track visitor use of the website and to compile statistical reports on website activity. For further information visit <a href="https://www.aboutcookies.org" target="_blank" title="Link to this page in a new window">www.aboutcookies.org</a>.
+          Cookies are text files placed on your computer to collect standard internet log information and visitor behaviour information. This information is used to track visitor use of the website and to compile statistical reports on website activity. For further information visit <a href="https://www.aboutcookies.org" target="_blank" title="Link to this page in a new window" rel="noopener noreferrer">www.aboutcookies.org</a>.
           </p>
           <p>
           You can set your browser not to accept cookies and the above websites tell you how to remove cookies from your browser. However, in a few cases some of our website features may not function as a result.

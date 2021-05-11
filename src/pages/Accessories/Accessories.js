@@ -1,26 +1,20 @@
 import React, { useEffect } from "react";
-// import parse from "html-react-parser";
-// import { Link } from "react-router-dom";
 import TitleTextImg from "../../components/TitleTextImg/TitleTextImg";
 import Services from "../../components/Services/Services";
+import { setDocumentTitle, ConsoleLog } from "../../assets/js/Helpers";
 
 const Accessories = props => {
   const siteData = props.siteData;
-  siteData && console.log('1. ', siteData.services);
+  // siteData && ConsoleLog('1. ', siteData.services);
   const servicesBlocks = {
-    // "id": "servicesTransport",
-    // "class": "bg-white",
-    // "title": "Services",
     "items": [siteData.services.items[0],siteData.services.items[1]]
   };
-  // servicesBlocks.push(siteData.services.items[0]);
-  // servicesBlocks.push(siteData.services.checked);//[siteData.services.about,siteData.services.checked];
-  servicesBlocks && console.log('2. ', servicesBlocks);
+  servicesBlocks && ConsoleLog('2. ', servicesBlocks);
 
   useEffect(() => {
-    // ConsoleLog('[About]');
+    ConsoleLog('[Accessories]');
     window.scrollTo(0, 0);
-    // setDocumentTitle(`About ${SiteData.brand.name}`);
+    setDocumentTitle('Accessories | Classic Car Storage');
   }, []);
   // (END) useEffect
 

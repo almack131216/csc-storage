@@ -4,14 +4,15 @@ import React, { useEffect } from "react";
 import TitleTextImg from "../../components/TitleTextImg/TitleTextImg";
 import TitleSection from "../../components/TitleSection/TitleSection";
 import Services from "../../components/Services/Services";
+import { setDocumentTitle, ConsoleLog } from "../../assets/js/Helpers";
 
 const Home = props => {
   const siteData = props.siteData;
 
   useEffect(() => {
-    // ConsoleLog('[About]');
+    ConsoleLog('[Home]');
     window.scrollTo(0, 0);
-    // setDocumentTitle(`About ${SiteData.brand.name}`);
+    setDocumentTitle(`Classic Car Storage | Classic & Sportscar Centre, Malton`);
   }, []);
   // (END) useEffect
 

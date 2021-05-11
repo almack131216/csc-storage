@@ -2,14 +2,19 @@ import React, { useEffect } from "react";
 // import parse from "html-react-parser";
 // import { Link } from "react-router-dom";
 import TitleTextImg from "../../components/TitleTextImg/TitleTextImg";
+import Services from "../../components/Services/Services";
+import { setDocumentTitle, ConsoleLog } from "../../assets/js/Helpers";
 
 const About = props => {
   const siteData = props.siteData;
+  const servicesBlocks = {
+    "items": [siteData.services.items[1],siteData.services.items[2],siteData.services.items[4],siteData.services.items[5]]
+  };
 
   useEffect(() => {
-    // ConsoleLog('[About]');
+    ConsoleLog('[About]');
     window.scrollTo(0, 0);
-    // setDocumentTitle(`About ${SiteData.brand.name}`);
+    setDocumentTitle('Why Choose Us? | Classic Car Storage');
   }, []);
   // (END) useEffect
 
@@ -42,6 +47,7 @@ const About = props => {
           </p> */}
         </div>
       </section>
+      {servicesBlocks && <Services id="services-list" data={servicesBlocks} />}
     </React.Fragment>
   );
 };

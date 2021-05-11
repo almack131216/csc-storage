@@ -25,7 +25,7 @@ class services extends React.Component<any, any> {
             <div className="img-area">
             <Link
               to={item.more}
-              title="Link to more information page"
+              title={`Link to ${item.title} page`}
             >
               <img src={item.img.src} alt={item.img.alt}/>
             </Link>                
@@ -34,7 +34,7 @@ class services extends React.Component<any, any> {
               <h3>
               <Link
                   to={item.more}
-                  title="Link to more information page"
+                  title={`Link to ${item.title} page`}
                 >
                   {item.title}
                 </Link>

@@ -19,11 +19,12 @@ import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
 import CookieConsent from "react-cookie-consent";
+import { ConsoleLog } from "./assets/js/Helpers";
 class App extends React.Component<any, any> {
   constructor(props: any) {
     super(props);
     document.title = this.props.appTitle;
-    // console.log("[App.js] constructor");
+    ConsoleLog("[App.js] constructor");
 
     this.state = {
       data: SiteData,
@@ -32,7 +33,7 @@ class App extends React.Component<any, any> {
   }
 
   // componentDidMount() {
-  //   // console.log("[App.js] componentDidMount");
+    // ConsoleLog("[App.js] componentDidMount");
   // }
 
   drawerToggleClickHandler = () => {
@@ -46,12 +47,12 @@ class App extends React.Component<any, any> {
   };
 
   closeSideDrawerHandler = () => {
-    console.log("[App.tsx] closeSideDrawerHandler");
+    ConsoleLog("[App.tsx] closeSideDrawerHandler");
     this.backdropClickHandler();
   };
 
   render() {
-    // console.log("[App.js] render... ");
+    ConsoleLog("[App.js] render... ");
 
     let backdrop;
 
